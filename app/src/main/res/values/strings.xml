@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">instantmessaging</string>
+    <string name="pagerone_text_name">QQ</string>
+    <string name="pagerone_text">超过一亿人使用的手机应用</string>
+    <string name="pagertwo_text_name">按住就能说话</string>
+    <string name="pagertwo_text">聊天是如此的简单轻松</string>
+    <string name="pagerfour_text">QQ,是一个生活方式</string>
+    <string name="pagerfour_btn_open">开始</string>
+
+    <string name="tabhost_first_btn">设置</string>
+    <string name="tabhost_first_et">搜索</string>
+    <string name="login_btn_register">登录</string>
+    <string name="login_text_name">请输入用户名</string>
+    <string name="login_text_pwd">请输入密码</string>
+    <string name="User_name_cannot_be_empty">用户名不能为空</string>
+    <string name="Password_cannot_be_empty">密码不能为空</string>
+    <string name="Login_failed">登录失败</string>
+    <string name="Is_landing">正在登录，请稍后！</string>
+    <string name="send">发送</string>
+    <string name="menu_text_add">添加为好友</string>
+    <string name="menu_text_delete">删除</string>
+</resources>

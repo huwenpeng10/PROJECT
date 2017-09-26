@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    tools:context=".ChatListActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rl01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" >
+
+        <Button
+            android:id="@+id/listview_item_receive_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/listview_item_receive_avatar"
+            android:layout_toLeftOf="@id/name1"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/listview_item_receive_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/listview_item_receive_avatar"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/listview_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:text="17:05:06"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/listview_item_send_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/listview_item_send_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/listview_item_send_avatar"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="left|center"
+            android:lineSpacingExtra="2dp"
+            android:minHeight="50dp"
+            android:textColor="#ff000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/listview_item_send_avatar"
+            android:layout_toRightOf="@id/listview_item_send_content"
+            android:gravity="center"
+            android:textColor="#818181"
+            android:textSize="8dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

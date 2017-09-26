@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+<!--用来设置边框渐变的长度-->
+    <huwenpeng.project.activity.view.MyScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:background="@drawable/welcome_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <include layout="@layout/menu_activity"/>
+            <include layout="@layout/main_activity_fragment"/>
+
+        </LinearLayout>
+
+    </huwenpeng.project.activity.view.MyScrollView>
+
+</RelativeLayout>

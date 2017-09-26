@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w01">
+
+    <TextView
+        android:id="@+id/pagerfour_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pagerfour_text"
+        android:textColor="@color/write"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:onClick="open"
+        android:id="@+id/pager_btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pagerfour_btn_open"
+        android:background="@color/green"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:textSize="50dp"
+        android:textColor="@color/write"/>
+
+</RelativeLayout>
